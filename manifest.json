@@ -1,0 +1,60 @@
+{
+  "name": "Discipline Life Planner",
+  "short_name": "Discipline Planner",
+  "description": "Your daily task manager and habit tracker for establishing a disciplined life",
+  "start_url": "/discipline-life-planner/",
+  "scope": "/discipline-life-planner/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#fdd835",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%23fdd835' width='192' height='192'/><text x='96' y='120' font-size='80' font-weight='bold' text-anchor='middle' fill='%23000'>📋</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect fill='%23fdd835' width='512' height='512'/><text x='256' y='350' font-size='200' font-weight='bold' text-anchor='middle' fill='%23000'>📋</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Today's Schedule",
+      "short_name": "Schedule",
+      "description": "View today's schedule and tasks",
+      "url": "/discipline-life-planner/?section=schedule",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%23fdd835' width='192' height='192'/><text x='96' y='120' font-size='80' font-weight='bold' text-anchor='middle' fill='%23000'>📅</text></svg>",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Goal Tracker",
+      "short_name": "Goals",
+      "description": "Track your progress towards goals",
+      "url": "/discipline-life-planner/?section=goals",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%23fdd835' width='192' height='192'/><text x='96' y='120' font-size='80' font-weight='bold' text-anchor='middle' fill='%23000'>🎯</text></svg>",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "categories": ["productivity", "lifestyle"],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 720'><rect fill='%23fff8e1' width='540' height='720'/><rect fill='%23fdd835' width='540' height='120'/><text x='270' y='70' font-size='40' font-weight='bold' text-anchor='middle' fill='%23000'>Discipline Planner</text></svg>",
+      "sizes": "540x720",
+      "type": "image/svg+xml",
+      "form_factor": "narrow"
+    }
+  ]
+}
